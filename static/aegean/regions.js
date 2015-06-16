@@ -7,7 +7,7 @@
 		chalcidice = { name: "Chalcidice", x: 85, y: 34, width: 12, height: 7, type: region },
 		epirus = { name: "Epirus", x: 32, y: 55, width: 12, height: 7, type: region },
 		thessaly = { name: "Thessaly", x: 65, y: 55, width: 12, height: 7, type: region },
-		arcanania = { name: "Arcanania", x: 47, y: 71, width: 12, height: 3, type: region },
+		acarnania = { name: "Acarnania", x: 47, y: 71, width: 12, height: 3, type: region },
 		aetolia = { name: "Aetolia", x: 59, y: 75, width: 12, height: 3, type: region },
 		phocis = { name: "Phocis", x: 78, y: 73, width: 12, height: 3, type: region },
 		boeotia = { name: "Boeotia", x: 92, y: 77, width: 12, height: 3, type: region },

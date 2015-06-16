@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link rel="stylesheet" href="../index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    </head>
+    <body>
+
+		<div class="outsideWrapper">
+			<div class="insideWrapper">
+				<!-- <img src="aegean.png" class="coveredImage"> -->
+				<img src="blank_aegean.jpg" class="coveredImage_blank">
+				<canvas id="viewport" class="coveringCanvas"></canvas>
+			</div>
+		</div>
+
+		<div class="game-area">
+			<h2>What Region is this?</h2>
+			<input type="text" id="answer" />
+			<small style="display:block;">*Must be exact spelling*</small>
+			<button type="submit" id="submit">Submit</button>
+			<p id="message"></p>
+		</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="regions.js"></script>
+        <script src="../game.js"></script>
+        <script>
+        	var inputElem = document.getElementById('answer');
+			var submitButton = document.getElementById('submit');
+			var messageElem = document.getElementById('message');
+
+        	game(regions, inputElem, submitButton, messageElem);
+        </script>
+    </body>
+</html>
