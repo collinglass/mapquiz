@@ -1,0 +1,39 @@
+.map {
+	width: 1000px;
+	height: 700px;
+	background-image: url('aegean.png');
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+}
+
+.outsideWrapper{ 
+    width:1000px; height:700px; 
+    margin:5px; 
+    border:1px solid blue;
+    display: inline-block;
+}
+.insideWrapper{ 
+    width:100%; height:100%; 
+    position:relative;}
+.coveredImage{ 
+    width:100%; height:100%; 
+    position:absolute; top:0px; left:0px;
+}
+.coveredImage_blank{ 
+    width:100%; height:100%; 
+    position:absolute; top:0px; left:0px;
+}
+.coveringCanvas{ 
+    width:100%; height:100%; 
+    position:absolute; top:0px; left:0px;
+}
+
+.game-area {
+	display: inline-block;
+	width: 300px;
+	padding: 20px;
+	vertical-align: top;
+}

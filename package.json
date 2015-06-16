@@ -1,0 +1,25 @@
+{
+  "name": "greek-map-quiz",
+  "version": "0.1.3",
+  "description": "Makes studying for Ancient Greece Map quiz easier.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collinglass/mapquiz"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
