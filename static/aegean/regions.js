@@ -25,5 +25,5 @@
 		caria = { name: "Caria", x: 195, y: 83, width: 20, height: 5, type: region },
 		lycia = { name: "Lycia", x: 235, y: 90, width: 20, height: 5, type: region };
 
-	return [macedonia, thrace, chalcidice, epirus, thessaly, arcanania, aetolia, phocis, boeotia, achaea, elis, argolis, messenia, laconia, crete, chersonese, mysia, anatolia, lydia, phrygia, caria, lycia];
+	return shuffle([macedonia, thrace, chalcidice, epirus, thessaly, acarnania, aetolia, phocis, boeotia, achaea, elis, argolis, messenia, laconia, crete, chersonese, mysia, anatolia, lydia, phrygia, caria, lycia]);
 }();

@@ -34,5 +34,5 @@
 		samos = { name: "Samos", x: 177, y: 81, width: 1, height: 1, type: city },
 		miletus = { name: "Miletus", x: 183, y: 84, width: 1, height: 1, type: city };
 
-	return [amphipolis,therme,potidaea,aegae,corcyra,abdera,thasos,lemnos,byzantium,chalcedon,troy,mytilene,pylos,argos,mantinea,thebes,sparta,lesbos,megara,athens,chios,lefkandi,isthmus,plataea,corinth,olympia,sicyon,messene,samos,miletus]
+	return shuffle([amphipolis,therme,potidaea,aegae,corcyra,abdera,thasos,lemnos,byzantium,chalcedon,troy,mytilene,pylos,argos,mantinea,thebes,sparta,lesbos,megara,athens,chios,lefkandi,isthmus,plataea,corinth,olympia,sicyon,messene,samos,miletus]);
 }();

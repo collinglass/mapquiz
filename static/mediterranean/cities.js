@@ -10,8 +10,8 @@
 		athens = { name: "athens", x: 38, y: 63, width: 1, height: 1, type: city },
 		ephesus = { name: "ephesus", x: 65, y: 66, width: 1, height: 1, type: city },
 		miletus = { name: "miletus", x: 65, y: 70, width: 1, height: 1, type: city },
-	// 	sicily = { name: "sicily", x: 65, y: 70, width: 1, height: 1, type: city },
-	// 	syracuse = { name: "miletus", x: 65, y: 70, width: 1, height: 1, type: city },
+	// 	sicily = { name: "sicily", x: 65, y: 70, width: 1, height: 1, type: island },
+	// 	syracuse = { name: "syracuse", x: 65, y: 70, width: 1, height: 1, type: city },
 		cyrene = { name: "cyrene", x: 15, y: 100, width: 1, height: 1, type: city },
 		cyprus = { name: "cyprus", x: 105, y: 90, width: 4, height: 3, type: island },
 		tyre = { name: "tyre", x: 127, y: 99, width: 1, height: 1, type: city },
@@ -20,5 +20,5 @@
 		heraclea = { name: "heraclea", x: 99, y: 45, width: 1, height: 1, type: city };
 
 
-	return [alexandria,naucratis,memphis,sparta,athens,ephesus,miletus,cyrene,cyprus,tyre,babylon,odessus,heraclea];
+	return shuffle([alexandria,naucratis,memphis,sparta,athens,ephesus,miletus,cyrene,cyprus,tyre,babylon,odessus,heraclea]);
 }();
